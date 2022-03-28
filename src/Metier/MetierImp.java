@@ -3,7 +3,7 @@ package Metier;
 import Doa.IDao;
 
 public class MetierImp implements  IMetier{
-    private IDao dao; //
+    private IDao dao; //depender les interfaces est non pas les classes
 
     @Override
     public double calcul() {
